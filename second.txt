@@ -1,0 +1,8 @@
+This is a new file that will be merged into master.
+Unfortunately this file will come into master after
+something else has already happened in master.
+
+This results in a recursive merge. A special commit is made
+that helps us walk back down the commit graph so we know
+that there were two branches that had commits happen after a
+common parent.
